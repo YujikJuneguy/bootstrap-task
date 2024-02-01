@@ -3,12 +3,28 @@
     margin: 0;
     box-sizing: border-box;
     }
-/* .container-fluid {
-    mt-5
-   margin-left: 20px;
-   margin-right: 20px;
+
+.navbar-collapse,
+.nav-item {
+    padding-left: 5rem;
+    font-size: large;}
+.navbar{
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    position: fixed;
 }
-.navbar-nav {
-    margin: auto;
-    padding: 0 20rem;
-} */
+.d-flex{
+    padding-right: 5rem;}
+.container-fluid a {
+    color: gold; !important
+}    
+.navbar .active {
+    color: silver !important;
+}
+.dropdown-menu {
+    background-color: #2b2f32;
+}
+.carousel-inner {
+    height: 120vh;
+}
