@@ -3,6 +3,14 @@
     margin: 0;
     box-sizing: border-box;
     }
+body {
+    background-color:#2b2f32;
+}
+h1,
+h2,
+h3 {
+    color: antiquewhite;
+}    
 
 .navbar-collapse,
 .nav-item {
@@ -17,7 +25,7 @@
 .d-flex{
     padding-right: 5rem;}
 .container-fluid a {
-    color: gold; !important
+    color: gold; 
 }    
 .navbar .active {
     color: silver !important;
@@ -28,3 +36,39 @@
 .carousel-inner {
     height: 120vh;
 }
+.card-text { 
+    -webkit-line-clamp: 3;
+    color: bisque;
+    -webkit-box-orient: vertical;
+    display: -webkit- box; 
+    white-space: normal;
+}
+.card-body {
+    background-color: rgb(41, 37, 37);
+    }
+.card {
+    border: 1px solid gold;
+}    
+.btn {
+    background-color: black;
+    text-align: gold;
+    border: none;
+}
+
+.banner {
+    background-image: url(./images/images.jpg);
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+.footer a {
+     text-decoration: none;
+     padding-left: 10vw; 
+     font-size: large;  }
