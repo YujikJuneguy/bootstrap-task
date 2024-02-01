@@ -66,6 +66,10 @@ h3 {
     background-size: cover;
     background-attachment: fixed;
 }
+
+textarea {
+    display: inline-block;
+}
 .footer {
     display: flex;
     justify-content: center;
