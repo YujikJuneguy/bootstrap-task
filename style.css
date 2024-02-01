@@ -51,8 +51,13 @@ h3 {
 }    
 .btn {
     background-color: black;
-    text-align: gold;
+    color: gold;
     border: none;
+}
+.btn:hover {
+    background-color: gold;
+    color: black;
+    font-style: inherit;
 }
 
 .banner {
@@ -61,8 +66,6 @@ h3 {
     background-size: cover;
     background-attachment: fixed;
 }
-
-
 .footer {
     display: flex;
     justify-content: center;
@@ -72,3 +75,5 @@ h3 {
      text-decoration: none;
      padding-left: 10vw; 
      font-size: large;  }
+.footer a:hover { color: white;
+scale: 1.2;}     
